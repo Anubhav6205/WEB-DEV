@@ -1,0 +1,130 @@
+body{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+#box{
+    background-color: white;
+    border-radius: 6px;
+   
+    padding: 15px 25px;
+    width:100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:Josefin Sans;
+    
+
+    
+
+
+}
+
+.cheems{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    border-bottom: 2;
+
+}
+
+#third
+{
+    border-bottom: none;
+}
+
+img{
+    max-width: 500px;
+    width:82%;
+    padding: 10px;
+}
+
+div{
+    padding-bottom: 15px;
+}
+
+.heading{
+    color: #888;
+    font-weight: 600;
+    letter-spacing:1px;
+    font-size: 18px;
+
+}
+
+.features{
+    font-weight: 600;
+    letter-spacing:1px;
+    font-size: 9.8px;
+    padding:15px;
+    border-top: 1px solid #e1f1ff;
+    color: #499effe0;
+    font-family: Encode Sans SC;
+    border-bottom: 1px solid #e1f1ff;
+    
+    
+
+
+}
+
+.cost
+{
+    font-size: 25px;
+    padding-top: 5px;
+    color: #4979ffe0;
+    font-family: Prompt;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+
+.button{
+    border:2px solid #4979ffe0;
+    padding: 10px 40px;
+    color: #499effe0;
+    border-radius: 5px;
+
+}
+
+.button:hover
+{
+    background-color:  #e1f1ff;
+    transition: 1s;
+    color: rgba(97, 97, 97, 0.931);
+}
+.buttonf{
+    border:2px solid #4979ffe0;
+    padding: 10px 40px;
+    color: #ffffffe0;
+    border-radius: 5px;
+    background-color: #4677ffe0; ;
+
+}
+.buttonf:hover
+{
+    background-color:  #2314edb9; ;
+
+    transition: 1s;
+    color: rgba(255, 255, 255, 0.931);
+
+}
+
+@media (min-width:700px)
+{
+    #box{
+        flex-direction: row;
+        transition: 2s;
+    }
+}
+
+#name:hover{
+    color: rgba(0, 253, 198, 0.486);
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;;
+}
